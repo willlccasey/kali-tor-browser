@@ -1,6 +1,6 @@
 # kali-tor-browser
 
-Tor Browser launchers — normal start and new identity
+Tor Browser — anonymous web browser with smart Tor bootstrap
 
 Standalone Kali Linux desktop launcher — install only this app without the full launcher bundle.
 
