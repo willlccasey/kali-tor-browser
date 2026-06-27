@@ -1,8 +1,36 @@
-# kali-tor-browser (deprecated)
+# kali-tor-browser
 
-**This bundled repo is deprecated.** Install individual launchers instead:
+Tor Browser — anonymous web browser with smart Tor bootstrap
 
-- [kali-tor-browser](https://github.com/willlccasey/kali-tor-browser) — Tor Browser launcher
-- [kali-tor-browser-new-identity](https://github.com/willlccasey/kali-tor-browser-new-identity) — New Tor identity
+Standalone Kali Linux desktop launcher — install only this app without the full launcher bundle.
 
-Full catalog: [kali-custom-launchers](https://github.com/willlccasey/kali-custom-launchers)
+## Install
+
+```bash
+git clone https://github.com/willlccasey/kali-tor-browser.git
+cd kali-tor-browser
+./install.sh
+```
+
+Or with GitHub CLI:
+
+```bash
+gh repo clone willlccasey/kali-tor-browser
+cd kali-tor-browser && ./install.sh
+```
+
+## What gets installed
+
+- Desktop icon → `~/Desktop/`
+- App menu entry → `~/.local/share/applications/`
+- Scripts → `~/bin/` and/or `~/.local/bin/`
+
+## Requirements
+
+See the launcher comments and scripts for Kali packages, hardware, and sudo setup specific to this tool.
+
+## All launchers
+
+Browse the full catalog: [kali-custom-launchers](https://github.com/willlccasey/kali-custom-launchers) (index of every standalone repo).
+
+For authorized use on systems you own or have permission to test.
